@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    position: sticky;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar ul {
+    display: flex;
+    margin: 10px 0 10px auto;
+    width: 60%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#navbar ul li a {
+    margin-left: 3px;
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li a:hover {
+    color: lightcoral;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.15s;
+}
+
+#Welcome {
+    height: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872__340.jpg");
+    background-size: cover;
+}
+
+#Intro {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.message img {
+    max-width: 100%;
+}
+
+.message {
+    display: flex;
+    margin: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section {
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-information {
+    display: block;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#Skills {
+    background-color: black;
+    color: white;
+}
+
+.skills-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 3rem;
+}
+
+.skill p {
+    text-align: center;
+    font-size: 1.33rem;
+}
+
+progress {
+    background-color: white;
+    border: 1px solid white;
+}
+
+progress::-webkit-progress-value {
+    background-color: white;
+    border-radius: 5px;
+}
+
+::-webkit-progress-bar {
+    background-color: black;
+}
+
+.Project{
+    float: left;
+    padding: 70px;  
+}
+
+.Project image {
+    width: 40%;
+}
+
+.project-text{
+    text-align: center;
+}
+
+.project-text img{
+    float: left;
+}
+
+.project-text p{
+    font-size: large;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+#Contact {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Contact a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
